@@ -6,6 +6,8 @@ dist: trusty
 sudo: false
 
 before_install:
+    - uname -a
+    - ulimit -a
     - env
     - pip install --user awscli
 
