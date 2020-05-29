@@ -1,7 +1,7 @@
 {
   "envs": [
     {
-      "example": 123
+      "example": "123"
     }
   ],
   "output_dir": "build/",
