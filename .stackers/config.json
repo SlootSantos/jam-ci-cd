@@ -1,0 +1,11 @@
+{
+  "envs": [
+    {
+      "example": 123
+    }
+  ],
+  "output_dir": "build/",
+  "pre_install": "echo this is the example number $example",
+  "post_install": "ls",
+  "build": "npm run build"
+}
