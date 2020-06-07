@@ -8,5 +8,10 @@
   "output_dir": "build/",
   "pre_install": "echo this is the example number $example",
   "post_install": "ls",
-  "build": "npm run build"
+  "build": "npm run build",
+  "branches": {
+    "prod_env": "master:tag",
+    "stage_env": "master",
+    "dev_env": "develop"
+  }
 }
